@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import classes from './App.module.scss';
+import Button from './components/button';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className={classes.layoutWrapper}>
+			<header />
+
+			<main>
+				<Button
+					name="name test 2"
+					id="123"
+					onButtonClick={() => alert('Hello world 1!')}
+					label="Button"
+					type="primary"
+				/>
+				<Button
+					name="name test 2"
+					id="123"
+					onButtonClick={() => alert('Hello world 2!')}
+					label="Button"
+					type="secondary"
+				/>
+			</main>
+
+			<footer />
+		</div>
+	);
 }
 
 export default App;
