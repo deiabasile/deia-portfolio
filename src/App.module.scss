@@ -1,0 +1,34 @@
+.layoutWrapper {
+	height: 100vh;
+	max-width: 1440px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+header {
+	height: 80px;
+	border: 1px solid black;
+	position: fixed;
+	top: 0px;
+	width: inherit;
+	max-width: inherit;
+}
+
+main {
+	flex: 1; /*take all the remaining space + make the footer stick at the bottom.*/
+	border: 1px solid black;
+	padding: 70px 0px;
+	width: inherit;
+	max-width: inherit;
+	overflow-x: scroll;
+}
+footer {
+	height: 30px;
+	border: 1px solid black;
+	position: fixed;
+	bottom: 0px;
+	width: inherit;
+	max-width: inherit;
+}
