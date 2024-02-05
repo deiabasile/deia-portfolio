@@ -1,6 +1,6 @@
 {
-	"name": "Name",
-	"andreia": "AndreiaFR",
-	"label": "Label",
+	"name": "Nom",
+	"welcomeMessage": "Ceci est la version française de ce site web",
+	"label": "label",
 	"button": "Bouton"
 }
