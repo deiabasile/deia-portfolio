@@ -1,6 +1,6 @@
 {
-	"name": "Nom",
-	"welcomeMessage": "Ceci est la version française de ce site web",
+	"button": "Bouton",
 	"label": "label",
-	"button": "Bouton"
+	"name": "Nom",
+	"welcomeMessage": "Ceci est la version française de ce site web"
 }

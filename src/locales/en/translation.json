@@ -1,6 +1,6 @@
 {
-	"name": "Name",
-	"welcomeMessage": "This is the English version of this website",
+	"button": "Button",
 	"label": "Label",
-	"button": "Button"
+	"name": "Name",
+	"welcomeMessage": "This is the English version of this website"
 }
