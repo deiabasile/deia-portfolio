@@ -14,20 +14,22 @@ function App() {
 			</header>
 
 			<main>
-				<Button
-					name="name test 2"
-					id="123"
-					onButtonClick={() => alert('Hello world 1!')}
-					label={t('button')}
-					type="primary"
-				/>
-				<Button
-					name="name test 2"
-					id="123"
-					onButtonClick={() => alert('Hello world 2!')}
-					label={t('button')}
-					type="secondary"
-				/>
+				<div>
+					<Button
+						name="name test 2"
+						id="123"
+						onButtonClick={() => alert('Hello world 1!')}
+						label={t('button')}
+						type="primary"
+					/>
+					<Button
+						name="name test 2"
+						id="123"
+						onButtonClick={() => alert('Hello world 2!')}
+						label={t('button')}
+						type="secondary"
+					/>
+				</div>
 				<h1>{t('welcomeMessage')}</h1>
 			</main>
 
