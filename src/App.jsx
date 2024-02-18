@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import classes from './App.module.scss';
 import Button from './components/button';
 import Header from './components/header';
+import Paragraph from './components/paragraph';
 
 function App() {
 	const { t } = useTranslation();
@@ -31,6 +32,7 @@ function App() {
 					/>
 				</div>
 				<h1>{t('welcomeMessage')}</h1>
+				<Paragraph text="Hello World" />
 			</main>
 
 			<footer />
