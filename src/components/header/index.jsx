@@ -14,6 +14,7 @@ function Header() {
 	return (
 		<div className={classes.wrapper}>
 			<div className={classes.languageSelector}>
+				<p>Hello</p>
 				<Select
 					options={[
 						{ value: 'en', label: 'English' },
