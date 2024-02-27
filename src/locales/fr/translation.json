@@ -2,5 +2,9 @@
 	"button": "Bouton",
 	"label": "label",
 	"name": "Nom",
-	"welcomeMessage": "Ceci est la version française de ce site web"
+	"welcomeMessage": "Ceci est la version française de ce site web",
+	"home": "Accueil",
+	"aboutMe": "Sur Moi",
+	"languages": "langues",
+	"getInTouch": "Contact"
 }

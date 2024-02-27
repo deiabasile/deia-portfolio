@@ -2,5 +2,9 @@
 	"button": "Button",
 	"label": "Label",
 	"name": "Name",
-	"welcomeMessage": "This is the English version of this website"
+	"welcomeMessage": "This is the English version of this website",
+	"home": "Home",
+	"aboutMe": "About Me",
+	"languages": "Languages",
+	"getInTouch": "Get In Touch"
 }

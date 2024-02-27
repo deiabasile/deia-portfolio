@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import Select from '../select';
 
 import classes from './Header.module.scss';
+import Menubar from '../menubar';
 
 function Header() {
 	const { i18n } = useTranslation();
@@ -14,7 +15,7 @@ function Header() {
 	return (
 		<div className={classes.wrapper}>
 			<div className={classes.languageSelector}>
-				<p>Hello</p>
+				{/* <p>Hello</p> */}
 				<Select
 					options={[
 						{ value: 'en', label: 'English' },
@@ -24,6 +25,7 @@ function Header() {
 					onSelectChange={changeLanguageHandler}
 				/>
 			</div>
+			<Menubar />
 		</div>
 	);
 }
