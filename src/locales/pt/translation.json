@@ -2,5 +2,9 @@
 	"button": "Botão",
 	"label": "Label",
 	"name": "Nome",
-	"welcomeMessage": "Esta é a versão em Português deste site"
+	"welcomeMessage": "Esta é a versão em Português deste site",
+	"home": "Home",
+	"aboutMe": "Sobre mim",
+	"languages": "línguas",
+	"getInTouch": "Contato"
 }

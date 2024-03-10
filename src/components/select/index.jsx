@@ -20,7 +20,7 @@ Select.defaultProps = {
 };
 
 Select.propTypes = {
-	options: PropTypes.arrayOf,
+	options: PropTypes.arrayOf(PropTypes.arrayOf),
 	onSelectChange: PropTypes.func,
 };
 

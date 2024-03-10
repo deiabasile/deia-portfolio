@@ -34,7 +34,6 @@ function App() {
 				<h1>{t('welcomeMessage')}</h1>
 				<Paragraph text="Hello World" />
 			</main>
-
 			<footer />
 		</div>
 	);
