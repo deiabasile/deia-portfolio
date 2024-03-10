@@ -1,21 +1,20 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Select from '../select';
-
 import classes from './Header.module.scss';
-import Menubar from '../menubar';
+import Navbar from '../navbar';
 
 function Header() {
-	const { i18n } = useTranslation();
+	const { i18n, t } = useTranslation();
 
 	const changeLanguageHandler = (event) => {
 		i18n.changeLanguage(event.target.value);
 	};
+	const menuItems = [t('home'), t('aboutMe'), t('languages'), t('getInTouch')];
 
 	return (
 		<div className={classes.wrapper}>
 			<div className={classes.languageSelector}>
-				{/* <p>Hello</p> */}
 				<Select
 					options={[
 						{ value: 'en', label: 'English' },
@@ -25,7 +24,7 @@ function Header() {
 					onSelectChange={changeLanguageHandler}
 				/>
 			</div>
-			<Menubar />
+			<Navbar menuItems={menuItems} />
 		</div>
 	);
 }

@@ -15,31 +15,22 @@ body {
 }
 
 main {
-	flex: 1; /*take all the remaining space + make the footer stick at the bottom.*/
+	flex: 1;
 	border: 1px solid black;
-	// padding: 70px 0px;
-	width: inherit;
-	max-width: inherit;
 	padding: 0.5rem 1.5rem;
 }
 
 footer {
 	height: 50px;
 	border: 1px solid black;
-	position: fixed;
 	bottom: 0px;
-	width: inherit;
-	max-width: inherit;
 	padding: 0.5rem 1.5rem;
 }
 
 header {
 	height: 80px;
 	border: 1px solid black;
-	// position: fixed; // why if applied it moves my buttons?
 	top: 0px;
-	width: inherit;
-	max-width: inherit;
 	padding: 0.5rem 1.5rem;
-	background-color: steelblue; // I'll delete it later on
+	background-color: steelblue;
 }
