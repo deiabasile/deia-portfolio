@@ -1,12 +1,24 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import classes from './App.module.scss';
-import Button from './components/button';
+
+// Pages
+import AboutMe from './pages/aboutme';
+import GetInTouch from './pages/getintouch';
+import Home from './pages/home';
+import Languages from './pages/languages';
+
+// Components
 import Header from './components/header';
-import Paragraph from './components/paragraph';
+
+// Styles
+import classes from './App.module.scss';
+
+// Constants
+import routerPath from './constants';
 
 function App() {
-	const { t } = useTranslation();
+	const { i18n } = useTranslation();
 
 	return (
 		<div className={classes.layoutWrapper}>
@@ -15,24 +27,23 @@ function App() {
 			</header>
 
 			<main>
-				<div>
-					<Button
-						name="name test 2"
-						id="123"
-						onButtonClick={() => alert('Hello world 1!')}
-						label={t('button')}
-						type="primary"
-					/>
-					<Button
-						name="name test 2"
-						id="123"
-						onButtonClick={() => alert('Hello world 2!')}
-						label={t('button')}
-						type="secondary"
-					/>
-				</div>
-				<h1>{t('welcomeMessage')}</h1>
-				<Paragraph text="Hello World" />
+				<Routes>
+					{Object.keys(routerPath[i18n.language]).map((key) => (
+						<Route
+							key={key}
+							path={routerPath[i18n.language][key]}
+							exact
+							element={
+								{
+									home: <Home />,
+									aboutMe: <AboutMe />,
+									languages: <Languages />,
+									getInTouch: <GetInTouch />,
+								}[key]
+							}
+						/>
+					))}
+				</Routes>
 			</main>
 			<footer />
 		</div>

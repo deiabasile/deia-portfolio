@@ -2,9 +2,12 @@
 	"button": "Botão",
 	"label": "Label",
 	"name": "Nome",
-	"welcomeMessage": "Esta é a versão em Português deste site",
-	"home": "Home",
-	"aboutMe": "Sobre mim",
-	"languages": "línguas",
+	"welcomeMessageHome": "Essa é a página inicial ",
+	"welcomeMessageAboutMe": "Esta é a página Sobre Mim",
+	"welcomeMessageLanguages": "Esta pagina é a página das Linguas",
+	"welcomeMessageGetInTouch": "Esta é a página de Entre em Contato",
+	"home": "Página Inicial",
+	"aboutMe": "Sobre Mim",
+	"languages": "Línguas",
 	"getInTouch": "Contato"
 }
