@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -18,7 +18,13 @@ import classes from './App.module.scss';
 import routerPath from './constants';
 
 function App() {
-	const { i18n } = useTranslation();
+	const { t, i18n } = useTranslation();
+
+	useEffect(() => {
+		if (typeof window !== 'undefined') {
+			document.title = t('appName');
+		}
+	});
 
 	return (
 		<div className={classes.layoutWrapper}>
