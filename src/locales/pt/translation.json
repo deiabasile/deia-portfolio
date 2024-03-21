@@ -1,13 +1,14 @@
 {
+	"appName": "Portfólio de Andreia",
+	"aboutMe": "Sobre Mim",
 	"button": "Botão",
+	"getInTouch": "Contato",
+	"home": "Página Inicial",
 	"label": "Label",
+	"languages": "Línguas",
 	"name": "Nome",
 	"welcomeMessageHome": "Essa é a página inicial ",
 	"welcomeMessageAboutMe": "Esta é a página Sobre Mim",
 	"welcomeMessageLanguages": "Esta pagina é a página das Linguas",
-	"welcomeMessageGetInTouch": "Esta é a página de Entre em Contato",
-	"home": "Página Inicial",
-	"aboutMe": "Sobre Mim",
-	"languages": "Línguas",
-	"getInTouch": "Contato"
+	"welcomeMessageGetInTouch": "Esta é a página de Entre em Contato"
 }
