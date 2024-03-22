@@ -1,13 +1,14 @@
 {
+	"appName": "Le portfolio d'Andreia",
+	"aboutMe": "À Propos",
 	"button": "Bouton",
+	"getInTouch": "Contact",
+	"home": "Accueil",
 	"label": "label",
+	"languages": "Langues",
 	"name": "Nom",
 	"welcomeMessageHome": "Ceci est la page d'accueil",
 	"welcomeMessageAboutMe": "Ceci est la page À propos",
 	"welcomeMessageLanguages": "Ceci est la page de langue",
-	"welcomeMessageGetInTouch": "Ceci est la page de prise de contact",
-	"home": "Accueil",
-	"aboutMe": "À Propos",
-	"languages": "Langues",
-	"getInTouch": "Contact"
+	"welcomeMessageGetInTouch": "Ceci est la page de prise de contact"
 }

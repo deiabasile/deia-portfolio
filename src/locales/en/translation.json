@@ -1,13 +1,14 @@
 {
+	"appName": "Andreia's portfolio",
+	"aboutMe": "About Me",
 	"button": "Button",
+	"getInTouch": "Get In Touch",
+	"home": "Home",
 	"label": "Label",
+	"languages": "Languages",
 	"name": "Name",
 	"welcomeMessageHome": "This is the Home Page",
 	"welcomeMessageAboutMe": "This is the About Me Page",
 	"welcomeMessageLanguages": "This is the language Page",
-	"welcomeMessageGetInTouch": "This is the Get In Touch Page",
-	"home": "Home",
-	"aboutMe": "About Me",
-	"languages": "Languages",
-	"getInTouch": "Get In Touch"
+	"welcomeMessageGetInTouch": "This is the Get In Touch Page"
 }
