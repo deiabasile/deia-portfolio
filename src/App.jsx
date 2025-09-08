@@ -2,6 +2,12 @@ import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
+// Font Awesome
+// eslint-disable-next-line no-unused-vars
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+
 // Pages
 import AboutMe from './pages/aboutme';
 import GetInTouch from './pages/getintouch';
@@ -16,6 +22,8 @@ import classes from './App.module.scss';
 
 // Constants
 import routerPath from './constants';
+
+library.add(fab, fas);
 
 function App() {
 	const { t, i18n } = useTranslation();
